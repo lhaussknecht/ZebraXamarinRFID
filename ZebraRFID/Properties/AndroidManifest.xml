@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="ZebraRFID.ZebraRFID" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="com.symbol.emdk.permission.EMDK" />
+  <application android:label="ZebraRFID">
+    <uses-library android:name="com.symbol.emdk" android:required="false" />
+  </application>
+</manifest>
